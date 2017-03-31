@@ -132,7 +132,7 @@ RUN git -C ${BASE_PATH}/new-website pull --progress origin master
 RUN git -C ${BASE_PATH}/new-website fetch origin meta:meta
 RUN git -C ${BASE_PATH}/new-website remote remove origin
 RUN git -C ${BASE_PATH}/new-website remote add origin https://github.com/cdnjs/new-website.git
-RUN git -C ${BASE_PATH}/new-website pull --progress origin master --depth 10
+RUN git -C ${BASE_PATH}/new-website fetch origin master
 RUN git -C ${BASE_PATH}/new-website branch --set-upstream-to=origin/master
 
 #### repos ####
