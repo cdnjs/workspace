@@ -33,6 +33,9 @@ This docker environment will prepare the common repositories we need to work wit
 You download the image we built then load it, or build your own.
 
 #### Download and load pre-built image
+
+It'll take about 5 mins to load the docker images, it depends on your hardware performance, please get a cup of tea or coffee during the load process.
+
 ```sh
 $ wget https://cdnjs.peterdavehello.org/cdnjs-workspace-docker.txz
 $ docker load --input cdnjs-workspace-docker.txz
