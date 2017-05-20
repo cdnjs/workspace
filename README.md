@@ -6,6 +6,7 @@ Use docker to pack our working environment, based on Ubuntu 17.04 (Zesty Zapus).
 **Table of Contents**
 
 - [cdnjs-workspace](#cdnjs-workspace)
+- [Note](#note)
 - [Usage](#usage)
   - [For the first time setup](#for-the-first-time-setup)
     - [Get workspace docker image](#get-workspace-docker-image)
@@ -18,6 +19,10 @@ Use docker to pack our working environment, based on Ubuntu 17.04 (Zesty Zapus).
     - [Make sure the container started](#make-sure-the-container-started)
     - [Enter into the container](#enter-into-the-container)
     - [Go to the working directory, start hacking!](#go-to-the-working-directory-start-hacking)
+
+# Note
+
+This docker environment will prepare the common repositories we need to work with CDNJS project, please note that due to the repository disk space use issue, a full cloned and checkouted cdnjs main repository will use more than 88 GB disk space, so we use a shallow cloned cdnjs main repository with sparseCheckout enabled.
 
 # Usage
 
