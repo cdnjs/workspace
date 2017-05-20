@@ -30,7 +30,7 @@ This docker environment will prepare the common repositories we need to work wit
 
 ### Get workspace docker image
 
-You download the image we built then load it, or build your own.
+You can download the image we built then load it, or build your own.
 
 #### Download and load pre-built image
 
