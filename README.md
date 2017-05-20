@@ -10,7 +10,7 @@ Use docker to pack our working environment, based on Ubuntu 17.04 (Zesty Zapus).
 - [Usage](#usage)
   - [For the first time setup](#for-the-first-time-setup)
     - [Get workspace docker image](#get-workspace-docker-image)
-      - [Download and import pre-built image](#download-and-import-pre-built-image)
+      - [Download and load pre-built image](#download-and-load-pre-built-image)
       - [Build image from scratch](#build-image-from-scratch)
     - [Create container from image](#create-container-from-image)
     - [Setup git user info](#setup-git-user-info)
@@ -30,12 +30,12 @@ This docker environment will prepare the common repositories we need to work wit
 
 ### Get workspace docker image
 
-You download the image we built then import it, or build your own.
+You download the image we built then load it, or build your own.
 
-#### Download and import pre-built image
+#### Download and load pre-built image
 ```sh
 $ wget https://cdnjs.peterdavehello.org/cdnjs-workspace-docker.txz
-$ docker import cdnjs-workspace-docker.txz cdnjs-workspace
+$ docker load --input cdnjs-workspace-docker.txz
 ```
 or
 #### Build image from scratch
