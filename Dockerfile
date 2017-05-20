@@ -9,6 +9,7 @@ RUN sed -i "s/security.ubuntu.com/$UBUNTU_APT_SITE/g" /etc/apt/sources.list
 RUN apt update         && \
     apt upgrade -y     && \
     apt install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" \
+        locales               \
         dnsutils              \
         openssh-client        \
         dpkg                  \
