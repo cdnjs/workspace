@@ -149,7 +149,7 @@ RUN apt install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--fo
 
 RUN curl --compressed -o- https://cdn.rawgit.com/creationix/nvm/v0.33.8/install.sh | bash && \
     bash -c 'source $HOME/.nvm/nvm.sh && \
-    nvm install 4 && \
+    nvm install 8 && \
     nvm cache clear && \
     npm install -g pnpm ied npm-check-updates && \
     for repo in new-website cdnjs atom-extension autoupdate cdnjs-importer; do npm install --prefix "${BASE_PATH}/${repo}/" ; done'
