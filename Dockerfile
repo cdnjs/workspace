@@ -147,7 +147,7 @@ RUN apt install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--fo
         libssh2-1-dev         && \
     apt clean
 
-RUN curl --compressed -o- https://cdn.rawgit.com/creationix/nvm/v0.33.2/install.sh | bash && \
+RUN curl --compressed -o- https://cdn.rawgit.com/creationix/nvm/v0.33.8/install.sh | bash && \
     bash -c 'source $HOME/.nvm/nvm.sh && \
     nvm install 4 && \
     nvm cache clear && \
