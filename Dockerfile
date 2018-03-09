@@ -1,4 +1,4 @@
-From ubuntu:17.10
+From ubuntu:18.04
 MAINTAINER Peter Dave Hello <peter@cdnjs.com>
 ENV DEBIAN_FRONTEND noninteractive
 ENV UBUNTU_APT_SITE ftp.yzu.edu.tw
