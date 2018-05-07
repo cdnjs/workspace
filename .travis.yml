@@ -21,7 +21,7 @@ jobs:
       - npm i -g eclint
       script:
       - eclint check
-    - stage: Docker lint
+    - stage: Static Test
       env:
         - test: Dockerfile_lint
       install:
