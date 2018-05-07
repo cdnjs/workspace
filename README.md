@@ -1,7 +1,7 @@
 cdnjs-workspace
 =======
 
-Use docker to pack our working environment, based on Ubuntu 17.04 (Zesty Zapus).
+Use docker to pack our working environment, based on Ubuntu 18.04 (Bionic Beaver).
 
 ## Table of Contents
 
