@@ -1,4 +1,6 @@
 FROM ubuntu:18.04
+LABEL name="CDNJS Workspace"
+LABEL version="beta"
 ENV DEBIAN_FRONTEND noninteractive
 ENV UBUNTU_APT_SITE ftp.yzu.edu.tw
 ENV BASE_PATH       /root/cdnjs
