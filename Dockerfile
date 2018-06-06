@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.10
 LABEL name="CDNJS Workspace"
 LABEL version="beta"
 ENV DEBIAN_FRONTEND noninteractive
